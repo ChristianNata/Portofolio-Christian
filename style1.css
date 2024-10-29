@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+
+*{
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    margin: 0
+    
+}
+
+/*NAVBAR*/
+.navbar{
+    background-color: aqua;
+    box-shadow: 2px 2px 50px violet;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.navbar ul .nama{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 10px;
+    margin-right: auto;
+}
+
+.navbar ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*AKHIR NAVBAR*/
+
+.jumbotron {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.gambar {
+    width: 140px;
+    height: 140px;
+}
+
+/* KONTEN */
+/* JUMBOTRON */
+
+.jumbotron {
+    text-align: center;
+    margin-top: 10px;
+    font-family: arial;
+}
+
+/*AKHIR JUMBOTRON */
+/*AKHIR KONTEN */
+
+.jumbotron{
+    letter-spacing: 5px;
+}
+
+/*AKHIR JUMBOTRON */
+
+
+/* ABOUT */
+.about{
+    background-color: #004d99;
+    color: white;;
+    font-family: arial;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+/* AKHIR ABOUT */
+
+
+.project h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #004d99;
+    color: white;;
+    font-family: arial;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;;
+}
+.CONTACT laber {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 5%;
+}
+
+textarea {
+    width: 100%;
+    height: 10%;
+}
+
+/* AKHIR CONTACT */
+/* AKHIR KONTEN */
